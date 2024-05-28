@@ -1,0 +1,72 @@
+export const projects = [
+    {
+        name: "Developing the e commerce Website NextJs",
+        client: "Grow",
+        description: "Use framework Frontend NextJs and Backend Fastify to build the project. Database PostgreSQL,  CSS ( Tailwind CSS, Shadcn/ui )",
+        src: "projectnext1.jpg",
+        year: "3/2024 - 5/2024",
+    },
+    {
+        name: "NextJs Category Product",
+        client: "Decimal",
+        description: "Integrates many tools: CSS module, Middleware, SEO, Routing",
+        src: "projectnext2.jpg",
+        year: "3/2024 - 5/2024",
+    },
+    {
+        name: "Admin Website NextJs | Product",
+        client: "Grow",
+        description: "Use framework Frontend NextJs and Backend Fastify to build the project. Database PostgreSQL,  CSS ( Tailwind CSS, Shadcn/ui )",
+        src: "projectnext4.jpg",
+        year: "3/2024 - 5/2024",
+    },
+    {
+        name: "Admin Website NextJs | Product cart",
+        client: "Decimal",
+        description: "Integrates many tools: CSS module, Middleware, SEO, Routing",
+        src: "projectnext3.jpg",
+        year: "3/2024 - 5/2024",
+    },
+    {
+        name: "Modelry Home",
+        client: "projectcscart1",
+        description: "Use framework Vue.js and Nuxt.js to build the project. Use Vuetify library to css for the project.",
+        src: "projectvue.jpg",
+        year: "12/2023 - 01/2024",
+    },
+    {
+        name: "Modelry Setting",
+        client: "Wix Playground",
+        description: "Wix Playground is powered by the Wix.com design team.",
+        src: "projectvue1.jpg",
+        year: "12/2023 - 01/2024",
+    },
+    {
+        name: "Gradent Shop - Homepage",
+        client: "Gradent Shop",
+        description: "Convert website layout designed from Figma. Key Qualifications & Responsibilities.",
+        src: "projectcscart.jpg",
+        year: 2023,
+    },
+    {
+        name: "Vaithuhay Clone",
+        client: "ET Studio",
+        description: "Clone website layout designed vaithuhay.com",
+        src: "projectcvaithuhay.jpg",
+        year: 2023,
+    },
+    {
+        name: "Livingup Store",
+        client: "Ingamana",
+        description: "Clone website layout designed Livingup.vn",
+        src: "projectcscart2.jpg",
+        year: 2023,
+    },
+    {
+        name: "Hommeko ",
+        client: "Shader Studio",
+        description: "Clone website layout designed",
+        src: "projectcscart3.jpg",
+        year: 2023,
+    }
+]
