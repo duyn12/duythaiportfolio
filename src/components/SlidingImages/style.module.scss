@@ -44,3 +44,51 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .slidingImages{
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        position: relative;
+        overflow: hidden;
+        margin-top: 100px;
+        background-color: white;
+        z-index: 1;
+        .slider{
+            display: flex;
+            position: relative;
+            justify-items: center;
+            gap: 3vw;
+            width: 100%;
+            .project{
+                width: 40%;
+                height: 18vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .imageContainer{
+                    position: relative;
+                    width: 88%;
+                    height: 80%;
+                    img{
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .circleContainer{
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            margin-top: 100px;
+            .circle{
+                height: 1550%;
+                width: 110%;
+                border-radius: 0 0 50% 50%;
+                background-color: white;
+                z-index: 1;
+                position: absolute;
+                box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.748);
+            }
+        }
+    }
+ }

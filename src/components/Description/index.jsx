@@ -11,7 +11,7 @@ export default function Description() {
     const isInView = useInView(description)
     return (
         <div ref={description} className={styles.description}>
-            <p className='text-6xl font-bold mb-20 uppercase'>alittlebitaboutme/</p>
+            <p className='font-bold text-6xl mb-20 uppercase'>alittlebitaboutme/</p>
             <div className={styles.body}>
                 
                 <p>
@@ -21,7 +21,7 @@ export default function Description() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>If you are looking for someone who works hard, is creative and passionate about hiswork, I believe I can be the right choice for your position.</motion.p>
+                <motion.p className={styles.info} variants={opacity} animate={isInView ? "open" : "closed"}>If you are looking for someone who works hard, is creative and passionate about hiswork, I believe I can be the right choice for your position.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
                        <Link href="/about"> <p>About me</p></Link>

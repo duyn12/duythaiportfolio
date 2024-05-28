@@ -89,8 +89,7 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="py-24">
-        <div className="flex w-10/12 m-auto gap-20">
+      <div className={styles.abouts}>
           <div className={styles.name}>
             <h1 className="text-white">THAI VAN DUY</h1>
             <p>thaivduy01@gmail.com</p>
@@ -101,11 +100,11 @@ export default function About() {
               alt="img"
               width={300}
               height={300}
-              className="mt-10 ml-24 rounded-lg"
+              className="mt-10 rounded-lg"
             />
           </div>
-          <div className="w-6/12">
-            <p className="text-white text-4xl font-bold uppercase">
+          <div className="lg:w-6/12">
+            <p className={styles.skills}>
               Skills Summary
             </p>
 
@@ -123,11 +122,10 @@ export default function About() {
               SOFT SKILLS
             </p>
 
-            <div class="flex w-full gap-y-4 divide-y pt-14 text-h5 md:text-h4 2xl:text-h3">
+            <div class="flex w-full pb-12 gap-y-4 divide-y pt-14 text-h5 md:text-h4 2xl:text-h3">
               <span className={styles.skill}>Adaptability, Self-research skills, Time Management, Proactively update more, Proactively update more in-depth knowledge</span>
             </div>
           </div>
-        </div>
       </div>
 
       {/* <div className="py-24 flex justify-center gap-10">

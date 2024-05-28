@@ -18,7 +18,7 @@ export default function Contact() {
     <motion.div style={{ y }} ref={container} className={styles.contact}>
       <div className={styles.body}>
         <div className={styles.title}>
-          <p className="text-8xl font-bold uppercase">Get in touch</p>
+          <p >Get in touch</p>
 
           <motion.svg
             style={{ rotate, scale: 2 }}
@@ -48,7 +48,7 @@ export default function Contact() {
         <div className={styles.info}>
           <div>
             <span>
-              <p className="text-6xl font-bold">
+              <p className={styles.name}>
                 2024 © <br /> THAI VAN DUY
               </p>
             </span>

@@ -18,6 +18,10 @@
             margin-left: 200px;
             margin-right: 200px;
             position: relative;
+            p {
+                font-size: 80px;
+                font-weight: bold;
+            }
             span{
                 display: flex;
                 align-items: center;
@@ -85,6 +89,10 @@
                 display: flex;
                 gap: 10px;
                 align-items: flex-end;
+                .name {
+                    font-size: 70px;
+                    font-weight: bold;
+                }
                 p, h3{
                     margin: 0px;
                     padding: 2.5px;
@@ -126,3 +134,125 @@
     }
     
 }
+@media screen and (max-width: 600px) {
+    .contact{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #141516;
+        position: relative;
+        .body{
+            padding-top: 200px;
+            width: 100%;
+            max-width: 1800px;
+            background-color: #141516;
+    
+            .title{
+                margin-left: 20px;
+                margin-right: 20px;
+                position: relative;
+                p {
+                    font-size: 48px;
+                    font-weight: bold;
+                }
+                span{
+                    display: flex;
+                    align-items: center;
+                    .imageContainer{
+                        width: 30px;
+                        height: 100px;
+                        position: relative;
+                        border-radius: 50%;
+                        overflow: hidden;
+    
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+                    h2{
+                        margin-left: 0.3em;
+                    }
+                }
+                h2{
+                    font-size: 5vw;
+                    margin: 0px;
+                    font-weight: 300;
+                }
+                .buttonContainer{
+                    position: absolute;
+                    left: calc(100% - 400px); 
+                    top: calc(100% - 75px);
+                }
+                .button{
+                    width: 40px;
+                    height: 40px;
+                    color: white;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    p{
+                        margin: 0px;
+                        font-size: 12px;
+                        font-weight: 300;
+                        z-index: 2;
+                        position: relative;
+                    }
+                }
+                svg{
+                    position: absolute;
+                    top: 30%;
+                    left: 100%;
+                }
+            }
+            .nav{
+                display: flex;
+                gap: 4px;
+                margin-top: 40px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 0px;
+                p {
+                    font-size: 12px;
+                    padding: 0px;
+                }
+            }
+            .info{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 200px;
+                padding: 10px;
+                div{
+                    display: flex;
+                    gap: 10px;
+                    align-items: flex-end;
+                    p, h3{
+                        margin: 0px;
+                        padding: 2.5px;
+                        cursor: pointer;
+                    }
+                    p{
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+                    span{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                    }
+                    h3{
+                        color: grey;
+                        cursor: default;
+                        font-weight: 300;
+                        font-size: 1em;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+ }

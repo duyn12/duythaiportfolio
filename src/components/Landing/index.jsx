@@ -56,7 +56,7 @@ export default function Home() {
         alt="img"
         width={300}
         height={300}
-        className="-mt-10 ml-[67%] rounded-lg"
+        className="-mt-10 lg:ml-[67%] rounded-lg "
       />
       </div>
       <div className={styles.sliderContainer}>
