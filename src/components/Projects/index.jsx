@@ -112,7 +112,7 @@ export default function Home() {
       }}
       className={styles.projects}
     >
-      <p className='text-6xl font-bold mb-20 uppercase'>WHATIDO/</p>
+      <p className='text-6xl font-bold mb-20 uppercase'>selected works/</p>
       <div className={styles.body}>
         {projects.map((project, index) => {
           return (

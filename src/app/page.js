@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/Preloader";
 import Landing from "../components/Landing";
 import Projects from "../components/Projects";
-import Description from "../components/Description";
+import Card from "../components/Experience";
 import SlidingImages from "../components/SlidingImages";
 import Contact from "../components/Contact";
 
@@ -31,8 +31,7 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Landing />
-      {/* <h2 className='text-center mt-20 text-4xl'>About me</h2> */}
-      <Description />
+      <Card />
       <Projects />
       <SlidingImages />
       <Contact />
